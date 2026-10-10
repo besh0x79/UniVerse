@@ -14,7 +14,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 **Scam Shield** is a proposed national anti-fraud protection system designed to help people in Egypt identify suspicious links, phone numbers, SMS messages, and messaging-app scams before interacting with them.
 
@@ -24,7 +24,7 @@ The planned solution combines a mobile application, a back-end service, a shared
 
 > **Project status:** This repository describes the project charter and proposed scope. The features below are planned deliverables, not claims that a production system is already available.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Reduce financial and personal-data losses caused by phishing and digital fraud.
 - Let users check suspicious links and phone numbers and report scams easily.
@@ -35,7 +35,7 @@ The planned solution combines a mobile application, a back-end service, a shared
 - Design for low-end phones and unreliable internet connections.
 - Protect user privacy and comply with applicable Egyptian data-protection requirements.
 
-## 🚨 The Problem
+## The Problem
 
 People regularly receive messages impersonating banks, e-wallet providers, delivery companies, and other trusted organizations. These messages may pressure recipients to click a link, reveal credentials, or provide sensitive information.
 
@@ -49,7 +49,7 @@ Common challenges include:
 
 Scam Shield proposes a shared reporting and detection workflow to help address these challenges.
 
-## 💡 Proposed Solution
+## Proposed Solution
 
 The intended user journey is:
 
@@ -63,7 +63,7 @@ The intended user journey is:
 
 **Important:** A “Safe” result cannot guarantee that a link is harmless. Newly created or not-yet-reported scams may not appear in available intelligence. Users should never share passwords, one-time passcodes, or banking credentials with an untrusted site.
 
-## 🧩 Planned Deliverables
+## Planned Deliverables
 
 ### 1. Mobile Application
 
@@ -97,7 +97,7 @@ The charter does not yet specify the API contract, database technology, detectio
 - Examples of scam messages and common warning signs.
 - Guidance intended to help users make safer decisions online.
 
-## 🏗️ High-Level Architecture
+## High-Level Architecture
 
 The following is a **conceptual view** of the proposed system, not a finalized architecture.
 
@@ -128,7 +128,7 @@ flowchart TD
 | External integrations | Potentially allow banks and telecom operators to query or share approved intelligence |
 | Awareness center | Provide practical educational material |
 
-## 🔍 Detection Results
+## Detection Results
 
 The charter describes three user-facing result categories:
 
@@ -148,7 +148,7 @@ These labels should be accompanied by understandable explanations and carefully 
 
 Evaluation should measure both detection effectiveness and incorrect warnings. A high number of warnings alone does not mean the system is effective.
 
-## 🗓️ Project Milestones
+## Project Milestones
 
 The dates below are the milestones defined in the project charter.
 
@@ -161,7 +161,7 @@ The dates below are the milestones defined in the project charter.
 | Product Operational | 28 February 2027 | App available on both stores and the review team processing real reports |
 | Final delivery deadline | 15 March 2027 | Project delivered within the approved constraints |
 
-## 👥 Planned Project Team
+## Planned Project Team
 
 The charter identifies the following staffing plan:
 
@@ -182,7 +182,7 @@ The charter identifies the following staffing plan:
 - **Infrastructure:** Cloud servers hosted inside Egypt.
 - **Software and services:** Development tools and IDE licenses, cloud hosting, an SMS/URL reputation data feed, and penetration-testing tools.
 
-## 💰 Budget
+## Budget
 
 **Approved project budget: EGP 1,200,000**
 
@@ -195,7 +195,7 @@ The charter states that the budget covers:
 
 A detailed cost breakdown has not yet been provided in the charter and should be developed during project planning.
 
-## 🔐 Privacy and Security Principles
+## Privacy and Security Principles
 
 Privacy and security are core project constraints, not optional add-ons.
 
@@ -209,7 +209,7 @@ Privacy and security are core project constraints, not optional add-ons.
 
 These are project principles and planning requirements. The exact controls, retention periods, consent flows, and legal review process must be specified during implementation.
 
-## ⚠️ High-Level Risks
+## High-Level Risks
 
 | Risk | Potential impact | Suggested response |
 |---|---|---|
@@ -225,7 +225,7 @@ These are project principles and planning requirements. The exact controls, rete
 
 The responses in this table are proposed mitigations; the charter identifies the risks but does not define a complete risk-treatment plan.
 
-## 📏 Proposed Success Metrics
+## Proposed Success Metrics
 
 The charter notes that unclear success criteria are a project risk. The following are **metrics to define during planning**, not approved targets:
 
@@ -241,7 +241,7 @@ The charter notes that unclear success criteria are a project risk. The followin
 
 Numerical targets should be agreed upon before testing and pilot evaluation begins.
 
-## 📦 Scope Boundaries
+## Scope Boundaries
 
 ### In scope
 
@@ -261,13 +261,13 @@ Numerical targets should be agreed upon before testing and pilot evaluation begi
 - Silent or unauthorized monitoring of private messages.
 - Any feature that conflicts with the approved privacy, budget, or delivery constraints.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 The project charter does **not** select specific programming languages, frameworks, database engines, cloud vendors, or machine-learning models.
 
 Those decisions should be made during the Critical Design Review based on security, maintainability, performance, hosting location, cost, and the team's capabilities. Avoid treating any unapproved technology choice as an official project decision.
 
-## 🚀 Development Roadmap
+## Development Roadmap
 
 1. Confirm requirements and define acceptance criteria.
 2. Design the architecture, data model, API contracts, and app screens.
@@ -281,7 +281,7 @@ Those decisions should be made during the Critical Design Review based on securi
 
 This roadmap is a high-level interpretation of the charter's milestones and must be refined into an actionable project plan.
 
-## 🤝 Stakeholders
+## Stakeholders
 
 - **Project sponsor:** Ministry of Communications and Information Technology.
 - **Project manager:** Hussein Khalifa.
@@ -289,7 +289,7 @@ This roadmap is a high-level interpretation of the charter's milestones and must
 - **Potential integration partners:** Banks and telecom operators.
 - **End users:** People in Egypt who want to check suspicious messages, links, or phone numbers.
 
-## 📂 Repository Contents
+## Repository Contents
 
 This repository currently documents the project charter and its planned scope.
 
@@ -303,7 +303,7 @@ As implementation progresses, it may include:
 
 These directories describe a suggested repository structure; they should only be added when the corresponding project files exist.
 
-## 🧭 Current Status
+## Current Status
 
 **Planning / charter definition**
 
@@ -311,7 +311,7 @@ The charter defines the purpose, planned deliverables, staffing, budget, milesto
 
 Implementation status, selected technologies, detailed requirements, and measured detection performance should be updated here as they become available.
 
-## ⚖️ Disclaimer
+## Disclaimer
 
 Scam Shield is intended to support scam awareness and risk assessment. It should not be presented as a guarantee that any link, message, or phone number is safe. Detection results depend on available data and the quality of the detection process.
 
