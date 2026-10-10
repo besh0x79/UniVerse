@@ -1,4 +1,4 @@
-# 🛡️ Scam Shield
+# Scam Shield
 ### National Anti-Fraud Protection System
 
 <p align="center">
@@ -320,5 +320,5 @@ This README reflects the project charter and clearly labels additional technical
 ---
 
 <p align="center">
-  <strong>Scam Shield — Report smarter. Protect more people.</strong>
+  <strong>Report smarter. Protect more people.</strong>
 </p>
